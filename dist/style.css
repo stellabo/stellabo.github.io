@@ -1,0 +1,63 @@
+h1
+{
+  font-size:60px;
+  color:red;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+#button, #dialog {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: white;
+  color: blue;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+#button:hover, #dialog:hover {
+  background-color: blue;
+  color: white;
+}
+
+#dialog {
+  display: none;
+}
+
+#close-button {
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#close-button:hover {
+  background-color: darkblue;
+}
+
+.custom-button {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
